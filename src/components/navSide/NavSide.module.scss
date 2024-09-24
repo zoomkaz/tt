@@ -1,0 +1,33 @@
+@import "../../UI/colors.scss";
+
+.navs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav,
+.activeNav {
+  padding: 20px;
+  transition: all 0.3s linear;
+}
+
+.activeNav {
+  background-color: $main;
+  margin-right: -21px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: black;
+}
+
+.nav {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  cursor: pointer;
+  color: $main;
+  &:hover {
+    background-color: $main;
+    margin-right: -21px;
+    color: black;
+  }
+}

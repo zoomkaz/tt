@@ -1,0 +1,13 @@
+@import "../../UI/colors.scss";
+
+.header {
+  background-color: $bg;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $main;
+}

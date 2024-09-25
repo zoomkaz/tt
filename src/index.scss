@@ -22,4 +22,21 @@ body {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  & {
+    scrollbar-width: thin;
+    scrollbar-color: #e0e0e0 #eeeeee;
+  }
+  &::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #eeeeee;
+    border-radius: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    border: 1px solid #2666ff00;
+  }
 }

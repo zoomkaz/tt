@@ -31,3 +31,15 @@
     color: black;
   }
 }
+
+.btns {
+  // padding: 20px;
+  margin-left: 20px;
+}
+
+.logout {
+  color: $main;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}

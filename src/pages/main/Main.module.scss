@@ -24,11 +24,10 @@
   padding-left: 20px;
   background-color: $main;
   height: max-content;
-  min-height: 300px;
+  min-height: 247.2px;
+  max-height: 646.4px;
+  overflow-y: auto;
   border-radius: 8px;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
 }
 
 .left,

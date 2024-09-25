@@ -1,0 +1,29 @@
+@import "../../../UI/colors.scss";
+
+.lead {
+  .closed,
+  .opened {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid $bg;
+  border-radius: 8px;
+  transition: all 0.2s linear;
+  &:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+  }
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+}
